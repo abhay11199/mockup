@@ -128,7 +128,7 @@ void _openBottomSheet(BuildContext context) {
                     textColor: Colors.blue,
                     borderColor: Colors.black,
                     backgroundColor: Colors.white,
-                    image: 'assets/images/upi.png',
+                    image: 'assets/images/upi_Image.png',
                     onPressed: () {
                       Navigator.pop(context);
                     }),
