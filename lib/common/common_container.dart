@@ -82,20 +82,22 @@ class CommonContainer extends StatelessWidget {
           SizedBox(
             height: appConfig.deviceHeight(2),
           ),
-          SizedBox(
-            width: double.infinity,
-            child: ElevatedButton(
-              onPressed: onButtonPressed,
-              style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.white,
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(20),
+          Expanded(
+            child: SizedBox(
+              width: double.infinity,
+              child: ElevatedButton(
+                onPressed: onButtonPressed,
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.white,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(20),
+                  ),
+                  elevation: 2,
                 ),
-                elevation: 2,
-              ),
-              child: Text(
-                buttonText,
-                style: TextStyle(color: Colors.black),
+                child: Text(
+                  buttonText,
+                  style: TextStyle(color: Colors.black),
+                ),
               ),
             ),
           ),

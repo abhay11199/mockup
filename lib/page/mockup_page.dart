@@ -105,7 +105,7 @@ void _openBottomSheet(BuildContext context) {
     builder: (BuildContext context) {
       AppConfig appConfig = AppConfig(context);
       return Container(
-        height: appConfig.deviceHeight(30),
+        height: appConfig.deviceHeight(40),
         width: appConfig.deviceWidth(100),
         padding: const EdgeInsets.all(16.0),
         child: Column(
